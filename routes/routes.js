@@ -1,5 +1,5 @@
 module.exports = function(app) {
-var todoList = require('../controls/controls');
+var todoList = require('../controllers/controls');
   
   //Routes
   app.route('/update/:taskId')

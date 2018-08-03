@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 
 var TaskSchema = new Schema({
     deviceId: {
-        type: Int,
+        type: String,
         required: 'Kindly enter the ID of the task'
       },
       name: {
@@ -12,11 +12,11 @@ var TaskSchema = new Schema({
         required: 'Kindly enter the ID of the task'
       },
       networkSlave1: {
-          type: Int,
+          type: String,
           required: 'Kindly enter the ID of the task'
       },
       networkSlave2: {
-        type: Int,
+        type: String,
         required: 'Kindly enter the ID of the task'
     },
     deviceType: {
@@ -24,7 +24,7 @@ var TaskSchema = new Schema({
         required: 'Kindly enter the ID of the task'
     },
     driverType: {
-        type: Int,
+        type: String,
         required: 'Kindly enter the ID of the task'
     },
     communicationCategory: {
